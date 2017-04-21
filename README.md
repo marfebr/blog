@@ -12,3 +12,4 @@ pip install -r requirements.txt
 python gevent.py
 ``
 
+basta acessa a aplicação na porta 80
