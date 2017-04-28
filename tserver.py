@@ -6,7 +6,7 @@ from tornado.ioloop import IOLoop
 
 from webapp import create_app
 
-app = WSGIContainer(create_app("webapp.config.ProdConfig"))
+app = WSGIContainer(create_app("wfdb.config.ProdConfig"))
 
 http_server = HTTPServer(app)
 
