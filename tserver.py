@@ -4,7 +4,7 @@ from tornado.httpserver import HTTPServer
 
 from tornado.ioloop import IOLoop
 
-from webapp import create_app
+from wfdb import create_app
 
 app = WSGIContainer(create_app("wfdb.config.ProdConfig"))
 
