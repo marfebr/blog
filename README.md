@@ -11,8 +11,11 @@ pip install -r requirements.txt
 ``bash
 python gevent.py
 ``
+
 ou
+
 ``bash
 python tserver.py
 ``
+
 basta acessa a aplicação na porta 80
