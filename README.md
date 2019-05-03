@@ -9,13 +9,8 @@ pip install -r requirements.txt
 ##executar aplicação como serviço
 
 ``bash
-python gevent.py
+gunicorn -w 4 -b 0.0.0.0:80  wsgi:app
 ``
 
-ou
-
-``bash
-python tserver.py
-``
 
 basta acessa a aplicação na porta 80
